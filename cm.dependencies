@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_kernel_htc_evitareul",
+    "target_path": "kernel/htc/evitareul"
+  }
+]

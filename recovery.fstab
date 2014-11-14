@@ -1,0 +1,11 @@
+# mount point   fstype      device  [device2]                                [parameters]
+/boot           emmc        /dev/block/platform/sdhci-tegra.3/by-name/LNX
+/cache          ext4        /dev/block/platform/sdhci-tegra.3/by-name/CAC
+/data           ext4        /dev/block/platform/sdhci-tegra.3/by-name/UDA
+/devlog         ext4        /dev/block/platform/sdhci-tegra.3/by-name/DLG
+/misc           emmc        /dev/block/platform/sdhci-tegra.3/by-name/MSC
+/recovery       emmc        /dev/block/platform/sdhci-tegra.3/by-name/SOS
+/system         ext4        /dev/block/platform/sdhci-tegra.3/by-name/APP
+
+#/external_sd    vfat        /dev/block/mmcblk0p??
+/usb-otg        vfat        /dev/block/sda1  /dev/block/sda                  flags=display="USB OTG";storage;wipeingui;removable
