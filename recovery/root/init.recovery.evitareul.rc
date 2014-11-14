@@ -1,9 +1,4 @@
 on boot
-    write /sys/module/cpu_tegra3/parameters/auto_hotplug 1
-    write /sys/kernel/debug/tegra_hotplug/max_cpus 2
-    write /sys/kernel/debug/tegra_hotplug/min_cpus 2
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 1700000
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 1700000
     start choice_fn
     start htcbatt
     start chargeled
